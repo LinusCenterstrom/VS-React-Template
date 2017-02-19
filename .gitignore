@@ -21,6 +21,8 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+#React bundles
+[sS]cripts/[Pp]ublic/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -250,3 +252,4 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/React Template/Scripts/Public
