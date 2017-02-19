@@ -10,7 +10,7 @@ const reducer = function(state = {
     }, action) {
     
     switch(action.type) {
-        case "INC" :
+        case "ADD" :
             return {
                 ...state,
                 nextMessageId: state.nextMessageId + 1,

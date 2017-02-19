@@ -15,7 +15,7 @@ export class Messenger extends React.Component {
     <form onSubmit={e => {
         e.preventDefault();
         if (input.value) {
-            dispatch({ type: "INC", message: input.value });
+            dispatch({ type: "ADD", message: input.value });
             input.value = "";
         }
     }}>
